@@ -1,4 +1,4 @@
-import db from "../db/db.js";
+import db from '../../db/db.js';
 
 const deleteUser = async (name) => {
   const deleteQuery = `
