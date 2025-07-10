@@ -11,6 +11,10 @@ import sortUsersByDescending from "./quaries/fiterSort/deserndingSort.js";
 import pagination from './quaries/fiterSort/pagination.js';
 
 
+import createRelationhip from './quaries/relationship/create.js';
+import insertRelationship from './quaries/relationship/insert.js';
+
+
 const testQuaries = async () => {
   try {
     await createTable();
